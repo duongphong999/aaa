@@ -1,0 +1,22 @@
+@import'variable';
+@import'header';
+@import'mixin';
+
+
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+section {
+    button {
+        @include buttonStyle();
+    }
+} 
+footer {
+    button {
+        @include buttonStyle();
+    }
+}
